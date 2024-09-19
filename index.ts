@@ -22,7 +22,7 @@ const { int64, int32, byte }: {
         size: 1, 
         pointer: { 
             name: 'byte', 
-            // 4 bytes (32-bit arch) or 8 bytes (64-bit arch)             size: 8
+            // 4 bytes (32-bit arch) or 8 bytes (64-bit arch)
             size: 8 
         } 
     } 
