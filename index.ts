@@ -78,7 +78,8 @@ const generateMemoryAlignment = (structType: StructType): {
                     p = i + 1; 
                 } 
             } else if (i < vi + (field.size)) { 
-                a[i] = field.name; p = i + 1; 
+                a[i] = field.name; 
+                p = i + 1; 
             } 
         } 
         
